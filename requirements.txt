@@ -1,0 +1,33 @@
+# Core
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+
+# LLM Providers
+openai>=1.50.0
+anthropic>=0.40.0
+google-generativeai>=0.8.0
+
+# Agent Frameworks
+langgraph>=0.3.0
+langchain>=0.3.0
+langchain-openai>=0.3.0
+langchain-anthropic>=0.3.0
+crewai>=0.80.0
+autogen-agentchat>=0.4.0
+
+# MCP
+mcp>=1.0.0
+
+# Vector Databases
+chromadb>=0.5.0
+
+# Evaluation & Testing
+pytest>=8.0.0
+pytest-asyncio>=0.24.0
+
+# API & Production
+fastapi>=0.115.0
+uvicorn>=0.32.0
+
+# Observability
+langsmith>=0.2.0
